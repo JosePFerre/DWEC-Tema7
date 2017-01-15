@@ -1,0 +1,25 @@
+/*Jose Pablo Ferre Leorini*/
+html,body{
+	height: 100%;
+	width: 100%;
+}
+
+#menu{
+	border:solid 3px;
+	border-radius: 5px;
+	width:90%;
+	height:10%;
+	margin: auto;
+	display: block;
+	background-color: cadetblue;
+}
+
+.elemento{
+	font-family: fantasy;
+	width:10%;
+	height:90%;
+	display: inline-block;
+	border: solid orange;
+	background-color: #f2299b;
+	text-align: center;
+}

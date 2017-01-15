@@ -2,7 +2,6 @@
 
 //Ejercicio 8
 
-
 $(document).ready(function(){
     $("#peque").click(function(){
         $("p").css("font-size", "8px");
