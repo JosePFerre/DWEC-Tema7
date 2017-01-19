@@ -1,0 +1,19 @@
+/*Jose Pablo Ferre Leorini
+Relacion 4 Tema 7*/
+
+html, body{
+	background-color: lightcyan;
+}
+
+.contenedorCorreo{
+	
+	border: 1px solid grey;
+	color: black;
+	background-color: lightblue;
+	margin: 10px;
+	padding: 10px;
+}
+
+.contenedorCorreo:hover{
+	background-color: white;
+}

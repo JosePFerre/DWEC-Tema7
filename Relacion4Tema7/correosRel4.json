@@ -1,0 +1,26 @@
+{
+  "bandejadeentrada": {
+    "correo": [
+      {
+        "remitente": "prueba@inventado.com",
+        "asunto": "Asunto de prueba"
+      },
+      {
+        "remitente": "manolo@inventado.com",
+        "asunto": "comprar limones"
+      },
+      {
+        "remitente": "pepemorales@meloinvento.com",
+        "asunto": "mensaje del banco"
+      },
+      {
+        "remitente": "spam@noesfalso.com",
+        "asunto": "Maduras calientes en tu area"
+      },
+      {
+        "remitente": "prueba@inventado.com",
+        "asunto": "Asunto de prueba"
+      }
+    ]
+  }
+}
