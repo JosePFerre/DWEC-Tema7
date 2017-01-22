@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Proyecto 1. Tema 7.</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="proyecto1_tema7.js"></script>
+        <link rel="stylesheet" href="proyecto1_tema7.css">
+        <!--PROYECTO 1 TEMA 7 DAW DWEC
+            Jose Pablo Ferre Leorini-->
+        <style>
+			.caja{
+				border: 1px solid;
+				padding: 10px;
+				margin: 15px;
+			}
+		</style>
+    </head>
+    <body>
+	<nav class='navbar navbar-default'>
+	<div class="container-fluid">
+		<div class="navbar-brand navbar-right">
+ 			<div class="radio-inline">
+  				<label><input type="radio" id="filtroSerie" name="filtro">Series</label>
+			</div>
+		<div class="radio-inline">
+  			<label><input type="radio" id="filtroPelis" name="filtro">Peliculas</label>
+		</div>
+        <div class="radio-inline">
+  			<label><input type="radio" id="filtroAmbas" name="filtro" checked>Ambas</label>
+		</div>
+           <input type="text" placeholder="Búsqueda" id='busqueda'><button id="buscar">Buscar</button>
+        </div>
+	</div>
+	</nav>
+	<div id='contenedor'></div>
+    </body>
+</html>

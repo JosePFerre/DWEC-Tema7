@@ -1,0 +1,36 @@
+/*Jose Pablo Ferre Leorini
+Proyecto 1 Tema 7*/
+
+body{
+	background-color: #00ddff;
+}
+
+.navbar{
+	background-color:deepskyblue;
+}
+
+#contenedor{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+div.panel{
+	margin: 0.5%;
+}
+
+div.panel-body>img{
+	width: 200px;
+	height: 250px;
+}
+
+div.panel:hover{
+	transition: 0.3s;
+	box-shadow: 3px 3px 3px 3px rgba(2, 51, 130,0.6);
+	cursor: pointer;
+}
+
+div.panel-footer{
+	background-color: lightsteelblue;
+}
